@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+:root{
+    --mainBackground-color:#fff5fa;
+    --contentMainBackground-color:#ffffff;
+    --headingText:#302d2c;
+    --timeText-color:#7b284f;
+    --greyText-color:#5f574e;
+    --listHeader-color:#854632;
+    --greyForHoriBar-color:#e4ded8;
+}
+
+body{
+    background-color: var(--mainBackground-color);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+}
+
+.container{
+    background-color: var(--contentMainBackground-color);
+    width: 650px;
+    border-radius: 2rem;
+    margin: 50px  0px;
+}
+
+.recipeImg{
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    
+}
+
+.recipeImg img{
+    width: 100%;
+    border-radius: 1rem;
+    
+}
+
+.content{
+    justify-content: center;
+    align-items: center;
+    margin: 15px 20px;
+    
+}
+.headingText{  
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--headingText);
+    margin-bottom: 10px;
+    font-family: Outfit;
+}
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: var(--greyText-color);
+}
+.timeText h3{
+    
+    
+    margin-bottom: 10px;
+    color: var(--timeText-color);
+}
+
+.timeText{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: var(--greyText-color);
+    background-color: var(--mainBackground-color);
+    padding: 20px 20px;
+    border-radius: 1rem;
+}
+
+.timeTextList{
+   margin-left: 25px;
+}
+
+.timeTextList li{
+   
+    margin-bottom: 15px;
+    color: var(--greyText-color);
+}
+
+.timeTextList li::marker{
+   
+    
+    color: var(--timeText-color);
+}
+.boldText{
+    font-weight: bolder;
+    font-size: 16px;
+    margin-left: 10px;
+    color: #000;
+    
+}
+
+.ingredientText{
+    margin-top: 25px;
+    
+}
+.ingredientText h2{
+    color: var(--listHeader-color);
+    margin-bottom: 15px;
+}
+.ingredientTextList{
+    margin-left: 20px;
+}
+.ingredientTextList li{
+    margin-bottom: 10px;
+    color: var(--greyText-color);
+    
+    
+}
+.ingredientListmove{
+    margin-left: 10px;
+}
+
+.ingredientTextList li::marker{
+   
+    
+    color: var(--timeText-color);
+}
+
+
+
+
+
+.instructionsText{
+    margin-top: 25px;
+    
+}
+.instructionsText h2{
+    color: var(--listHeader-color);
+    margin-bottom: 15px;
+}
+.instructionsTextList{
+    margin-left: 20px;
+}
+.instructionsTextList li{
+    margin-bottom: 10px;
+    color: var(--greyText-color);
+    list-style-type: decimal;
+   
+    
+    
+}
+
+
+.instructionsTextList li::marker{
+   
+    
+    color: var(--timeText-color);
+    font-weight: bold;
+}
+
+.boldTextI{
+    font-weight: bolder;
+    font-size: 16px;
+    color: #000;
+    
+}
+
+.InstructionsMove{
+    
+    margin-left: 10px;
+    
+    
+}
+
+
+
+.nutritionText{
+    margin-top: 25px;
+    
+}
+.nutritionText h2{
+    color: var(--listHeader-color);
+    margin-bottom: 15px;
+}
+
+.nutritionTextList li{
+    margin-bottom: 10px;
+    color: var(--greyText-color);
+    list-style: none;
+    
+   
+    
+    
+}
+.borderdown{
+    border-bottom: var(--greyForHoriBar-color) 1px solid ;
+}
+
+.boldTextN{
+    
+    font-size: 16px;
+   
+    color: var(--greyText-color);
+    margin-top: 0px;
+    margin-left: 27px;
+}
+.nutritionNumber{
+    
+    color: var(--listHeader-color);
+    font-weight: bold;
+    padding-left: 220px;
+    
+}
+.border1{
+    border-bottom: var(--greyForHoriBar-color) 3px solid ;
+}
+.b2{
+
+    margin-left: 15px;
+
+
+}
+
+.b3{
+
+    margin-left: 9px;
+
+
+}
+.b4{
+
+    margin-left: 30px;
+
+
+}
+
+@media screen and (max-width:725px){
+    .container{
+        background-color: var(--contentMainBackground-color);
+        width: 375px;
+        border-radius: 0;
+        margin: 0;
+        
+    }
+
+    .recipeImg{
+        width: 375px;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        border-radius: 0;
+        
+    }
+
+    .recipeImg img{
+        width: 100%;
+        border-radius: 0;
+        
+        
+    }
+    
+.content{
+    justify-content: center;
+    align-items: center;
+    margin: 15px 20px;
+    
+}
+.headingText{  
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--headingText);
+    margin-bottom: 10px;
+    font-family: Outfit;
+}
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: var(--greyText-color);
+}
+.timeText h3{
+    
+    
+    margin-bottom: 10px;
+    color: var(--timeText-color);
+}
+
+.timeText{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: var(--greyText-color);
+    background-color: var(--mainBackground-color);
+    padding: 20px 20px;
+    border-radius: 1rem;
+}
+.mb{
+  
+   
+}
+
+.b2{
+
+    margin-left: -70px;
+
+
+}
+
+.b3{
+
+    margin-left: -80px;
+
+
+}
+.b4{
+
+    margin-left: -60px;
+
+
+}
+}
+    
+
+
